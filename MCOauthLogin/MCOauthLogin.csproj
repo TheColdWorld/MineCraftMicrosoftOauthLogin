@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  <Title>MineCraftMicrosoftOauthLogin</Title>
+	  <PackageId>MineCraftMicrosoftOauthLogin_Csharp</PackageId>
+	  <Version>1.0.1</Version>
+	  <Author>TheColdWorld</Author>
+	  <PackRelease>true</PackRelease>
+	  <PublishRelease>true</PublishRelease>
+	  <Description>A solution to log in to Minecraft with a Microsoft account</Description>
+	  <Company>None</Company>
+	  <Copyright>© TheColdWorld</Copyright>
+	  <PackageProjectUrl>https://github.com/TheColdWorld/MineCraftMicrosoftOauthLogin</PackageProjectUrl>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <PublishRepositoryUrl>true</PublishRepositoryUrl>
+	  <RepositoryType>git</RepositoryType>
+	  <PackageOutputPath>..\publish\nuget</PackageOutputPath>
+	  <FileVersion>1.0.1.1</FileVersion>
+	  <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+  </PropertyGroup>
+	
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<DebugType>embedded</DebugType>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<DebugType>embedded</DebugType>
+	</PropertyGroup>
+	
+	<ItemGroup>
+		<None Include="LICENSE.txt" Pack="true" PackagePath="" />
+		<None Include="README.md" Pack="true" PackagePath="" />
+	</ItemGroup>
+</Project>
