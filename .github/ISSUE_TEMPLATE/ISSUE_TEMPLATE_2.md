@@ -1,6 +1,6 @@
 ---
-name: 默认中文issue Release
-about: 默认中文issue Release
+name: 简体中文issue Release
+about: 简体中文issue Release
 ---
 
 ### 我确认我已完成以下操作：

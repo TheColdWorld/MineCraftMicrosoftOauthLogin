@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCOauthLogin", "MCOauthLogin\MCOauthLogin.csproj", "{9B926A69-C611-440C-940A-2224C11C8186}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MCOauthLogin", "MCOauthLogin\MCOauthLogin.csproj", "{9B926A69-C611-440C-940A-2224C11C8186}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Debug", "Debug\Debug.csproj", "{F2EC54B0-2EB3-4410-BBFB-B356E581BF01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{9B926A69-C611-440C-940A-2224C11C8186}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B926A69-C611-440C-940A-2224C11C8186}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B926A69-C611-440C-940A-2224C11C8186}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2EC54B0-2EB3-4410-BBFB-B356E581BF01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2EC54B0-2EB3-4410-BBFB-B356E581BF01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2EC54B0-2EB3-4410-BBFB-B356E581BF01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2EC54B0-2EB3-4410-BBFB-B356E581BF01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

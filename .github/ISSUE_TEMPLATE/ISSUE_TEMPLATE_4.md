@@ -1,6 +1,6 @@
 ---
-name: 默认中文issue Debug
-about: 默认中文issue Debug
+name: 简体中文issue Debug
+about: 简体中文issue Debug
 ---
 
 ### 我确认我已完成以下操作：
